@@ -63,6 +63,9 @@ void main()
 	Print(ArrEven, even);
 	cout << "Выведение массива нечетных чисел из " <<odd<<" элементов: " << "\t";
 	Print(ArrOdd, odd);
+	delete[] Arr;
+	delete[] ArrEven;
+	delete[] ArrOdd;
 }
 
 
